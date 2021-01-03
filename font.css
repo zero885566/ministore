@@ -1,0 +1,113 @@
+
+
+    .crimson {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+ 
+    .h2eng {
+        /* letter-spacing: 0.5em; */
+        /* line-height: 110px; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 70px;    
+        color: #ffffff;
+        font-weight: bold; 
+    }
+
+
+    .h3eng {
+       
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        
+    }
+
+
+
+    .h4eng {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        /* font-weight: bold; */
+    }
+
+
+    .h5eng {
+       
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+
+ 
+
+    .bodytexteng {
+       /* font-weight: bold; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+    }
+
+   
+
+    .mintexteng {
+        letter-spacing: 0.02em;
+        line-height: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+    }
+
+
+
+    @media screen and (max-width: 500px) {
+        .h2eng {
+            
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 25px;
+        }
+
+
+
+        .h3eng {
+           
+           
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 15px;
+            /* font-weight: 600; */
+        }
+
+ 
+
+        .h4eng {          
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+
+        }
+
+
+        .h5eng {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+    
+
+        .bodytexteng {
+           
+           
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+        }
+
+
+
+        .mintexteng {
+           
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px;
+        }
+
+ 
+    }
