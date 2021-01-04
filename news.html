@@ -108,22 +108,25 @@
 
     .gameday {
       width: 100%;
-      height: 470px;
+      height: auto;
       background: url(/intrduce/Group\ 101.jpg) center;
       background-position-y: 30%;
-      padding: 2% 8% 2% 8%;
+      padding: 8% 0% 2% 0%;
       display: flex;
-      justify-content: space-around;
+      flex-direction: column;
+      justify-content: center;
       align-items: center;
+     
     }
 
     .matchteam {
-      width: 55%;
+      width: 75%;
       height: auto;
       display: flex;
-      justify-content: space-around;
       align-items: center;
+      justify-content: space-evenly;
     }
+  
 
     .matchteam img {
       width: 100%;
@@ -132,12 +135,13 @@
     }
 
     .infor {
-      height: 100%;
+      width: 75%;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-
+      align-items: center;
     }
+
 
     .card-group {
       width: 90%;
@@ -150,9 +154,14 @@
       border: unset;
     }
 
-    button {
+    .buybutton {
+      width: 226px;
+      height: 46px;
+      background-color: red;
+      color: #FFFFFF;
       border: unset;
-
+      letter-spacing: 50%;
+      margin: 2%;
     }
 
 
@@ -353,10 +362,6 @@
       .buybutton {
         width: 226px;
         height: 46px;
-        background-color: #FFFFFF;
-        /* border-radius: 10px;
-  border-color: #FFFFFF;
- border-width: 1px; */
         border: unset;
         letter-spacing: 50%;
         margin: 2%;
@@ -412,7 +417,7 @@
 
       .gameday {
         width: 100%;
-        height: 340px;
+        height: auto;
         background: url(/intrduce/Group\ 101.jpg) center;
         background-position-y: 30%;
         padding: 2% 8% 2% 8%;
@@ -420,6 +425,7 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        margin-top: 15%;
       }
 
       .matchteam {
@@ -428,20 +434,20 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin: 1%;
       }
 
-      .matchteam img {
-        width: 30%;
-        height: auto;
-        margin: 4%;
-      }
-
+      
       .infor {
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: space-around;
-
+        margin: 1%;
+      }
+      .infor span{
+        font-size: 12px;
+        margin: 1%;
       }
 
       .rwdnone {
@@ -620,17 +626,16 @@
 
     <div class="gameday">
       <div class="matchteam">
-        <img src="/intrduce/icon/1200px-Los_Angeles_Lakers_logo.svg.png" alt="">
-        <span class="h3eng" style="color: #FFFFFF;">V.S</span>
-        <img src="/intrduce/icon/c487861298cbc9da020c46eb4051a427.png" alt="">
+        <span class="h2eng" >LAker vs HEAT</span>
+        <span class="h2eng" style="color: orangered;">ON SALE</span>
       </div>
       <div class="infor">
-        <span class="h2eng" style="color: red;">ON SALE</span>
-        <span class="h3eng" style="color: #FFFFFF;">2020 . 12 . 25</br>
+      
+        <span class="h4eng" style="color: #FFFFFF;">2020 . 12 . 25 on
           STABLE CENTER</span>
-        <button class="buybutton h4eng">BUY NOW</button>
+       
       </div>
-
+ <button class="buybutton h4eng">BUY NOW</button>
     </div>
 
 

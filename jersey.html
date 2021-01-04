@@ -66,9 +66,9 @@
     }
 
     .toppageimg {
-      width: 75%;
-      height: 65%;
-      background: url(/jersey/GettyImages-1179396824-scaled-e1607000740286-784x452.jpg) center 100% no-repeat;
+      width: 65%;
+      height: auto;
+      /* background: url(/jersey/top.jpeg)cover; */
       margin: 10% 0 5% 0;
     }
 
@@ -317,14 +317,24 @@
       }
 
       .jerseyitem {
-        height: 180vh;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        padding: 0 8% 0 8%;
       }
 
+      .jersey {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 5% 0   10% 0;
+      transition: 1s;
+      padding: 1%;
+    }
       .toppageimg {
         background-size: cover;
         width: 100%;
@@ -506,7 +516,8 @@
   <div class="container">
 
     <div class="toppage">
-      <div class="toppageimg"></div>
+      <img class="toppageimg" src="/jersey/top.jpeg" alt="">
+      
       <span class="h3eng" style="color: #000000;font-weight: bold;">WEAR ON YOUR JERSEY </span>
     </div>
   </div>
