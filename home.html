@@ -22,12 +22,16 @@
       background: #FFFFFF;
       padding: unset;
     }
-    a{
+
+    a {
       color: #000000;
       transition: .3s;
+      text-decoration: none;
     }
-    a:hover{
-      color: rgb(196, 3, 3);
+
+    a:hover {
+      text-decoration: none;
+
     }
 
     body {
@@ -123,20 +127,22 @@
       align-items: center;
       border-bottom: 1px #cccccc solid;
       margin-bottom: 10%;
-      cursor: pointer; 
-      
+      cursor: pointer;
+
     }
+
     .topnew-1 {
       width: 100%;
     }
-    .topnew-1  img {
+
+    .topnew-1 img {
       width: 100%;
       margin: 0 0 5% 0;
     }
 
     .topnew-1 span {
       padding: 0 3% 0 3%;
-      margin-bottom: 10%;
+      margin-bottom: 5%;
     }
 
     .secnew {
@@ -158,7 +164,7 @@
       border-bottom: 1px #cccccc solid;
       /* padding-bottom: 1%; */
       transition: 2s;
-     
+
     }
 
     .newscard-col {
@@ -172,7 +178,7 @@
       border-bottom: 1px #cccccc solid;
       padding-bottom: 1%;
       transition: 2s;
-     
+
     }
 
     .newscard-col img {
@@ -737,64 +743,72 @@
     <div class="arcitle">
 
       <div class="topnew">
-<a href="/news.html">
-        <div class="topnew-1" >
-          
-           <img src="/intrduce/Mask Group 1.png" alt="" >
-          <span class="h4eng">There are certain things we like to look for </span>
-        </div>
-</a>
-
- <a href="/news.html">
-        <div class="topnew-1">
-          <img src="/intrduce/578c29f0-0c2c-11eb-a7fb-950af7043c3b.jpg" alt="">
-         
-          <span class="h4eng">There are certain things we like to look for </span>
-        </div>
-      </div>
-</a>
-
-
-      <div class="secnew">
- <a href="/shoes.html"> 
-        <div class="newscard">
-        
-          <img src="/sneaker/960x0.jpg" alt="">
-          <div style="display: flex;flex-direction: column;">
-            <span class="h4eng">Lakers</span> 
-            <span class="bodytexteng ">There are certain things we like to look for when the typical 82-game schedule is
-              typically
-            </span>
-           
-          </div>
-        
-        </div>
-</a>
-
-<a href="/jersey.html">
-        <div class="newscard rwdnone">
-          <div style="display: flex;flex-direction: column;">
-            <span class="h4eng">Lakers</span>
+        <a href="/news.html">
+          <div class="topnew-1">
+            <img src="/intrduce/Mask Group 1.png" alt="">
+            <span class="h4eng">There are certain things we like to look for </span>
             <span class="bodytexteng rwdnone">There are certain things we like to look for when the typical 82-game
               schedule is
               typically
             </span>
           </div>
-          <img src="/jersey/thumb-14.jpg" alt="">
-        </div>
-</a>
+        </a>
 
-<a href="/jersey.html">
-        <div class=" newscard ">
-          <img src="/jersey/thumb.webp" alt="">
-          <div style="display: flex;flex-direction: column;">
-            <span class="h4eng">Lakers</span>
-            <span class="bodytexteng ">There are certain things we like to look for when the typical 82-game schedule is
+        <a href="/news.html">
+          <div class="topnew-1">
+            <img src="/intrduce/578c29f0-0c2c-11eb-a7fb-950af7043c3b.jpg" alt="">
+            <span class="h4eng">There are certain things we like to look for </span>
+            <span class="bodytexteng rwdnone">There are certain things we like to look for when the typical 82-game
+              schedule is
               typically
             </span>
           </div>
-        </div>
-</a>
+      </div>
+      </a>
+
+
+      <div class="secnew">
+        <a href="/shoes.html">
+          <div class="newscard">
+
+            <img src="/sneaker/960x0.jpg" alt="">
+            <div style="display: flex;flex-direction: column;">
+              <span class="h4eng">Lakers</span>
+              <span class="bodytexteng ">There are certain things we like to look for when the typical 82-game schedule
+                is
+                typically
+              </span>
+
+            </div>
+
+          </div>
+        </a>
+
+        <a href="/jersey.html">
+          <div class="newscard rwdnone">
+            <div style="display: flex;flex-direction: column;">
+              <span class="h4eng">Lakers</span>
+              <span class="bodytexteng rwdnone">There are certain things we like to look for when the typical 82-game
+                schedule is
+                typically
+              </span>
+            </div>
+            <img src="/jersey/thumb-14.jpg" alt="">
+          </div>
+        </a>
+
+        <a href="/jersey.html">
+          <div class=" newscard ">
+            <img src="/jersey/thumb.webp" alt="">
+            <div style="display: flex;flex-direction: column;">
+              <span class="h4eng">Lakers</span>
+              <span class="bodytexteng ">There are certain things we like to look for when the typical 82-game schedule
+                is
+                typically
+              </span>
+            </div>
+          </div>
+        </a>
         <div class=" newscard-col ">
           <img src="/ad.jpg" alt="">
           <div style="display: flex;flex-direction: column;">
@@ -877,8 +891,13 @@
 
     })
   </script> -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
-
+  <script>
+    $('.buybutton').click(function(){
+      console.log(123)
+    })
+  </script>
 
 </body>
 

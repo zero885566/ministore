@@ -29,14 +29,26 @@
     body {
       background: #F6F6F6;
     }
-    a{
+
+    a {
       color: #000000;
       transition: .3s;
       text-decoration: none;
     }
-    a:hover{
+
+    a:hover {
       text-decoration: none;
-    
+
+    }
+
+    .buybutton {
+      width: 226px;
+      height: 46px;
+      background-color: red;
+      color: #FFFFFF;
+      border: unset;
+      letter-spacing: 50%;
+      margin: 2%;
     }
 
 
@@ -91,17 +103,17 @@
       justify-content: center;
     }
 
-    .jerseyitem a{
+    .jerseyitem a {
       height: auto;
-      width: 60%;
+      width: 100%;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center;
     }
 
     .jersey {
-      width: 100%;
+      width: 90%;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -110,12 +122,12 @@
       padding: 1%;
     }
 
-    .jersey:hover {
+    /* .jersey:hover {
       box-shadow: #5a5a5a 1px 1px 10px;
-    }
+    } */
 
     .detail {
-      width: 50%;
+      width: 40%;
     }
 
     .jersey img {
@@ -542,45 +554,48 @@
   <div class="container">
     <div class="jerseyitem">
 
-      <a href="/detail.html" style="width: 100%;">
+      <a href="/detail.html">
         <div class="jersey">
           <img src="/jersey/lebron-james-lakers-association-edition-2020-nba-authentic-jersey-tMkGsq.jpg" alt="">
           <div class="detail">
             <span class="h3eng" style="color: #000000;font-weight: bold;">Home white</br>
             </span>
-            <span class="h3eng" style="color: #8F8F8F;font-weight: bold;">
+            <span class="h4eng" style="color: #8F8F8F;font-weight: bold;">
               </br>PRICE </span>
             <span class="h3eng" style="color:red;font-weight: bold;"> $ 12.9 </br></span>
-            <span class="h3eng" style="color: #8F8F8F;font-weight: bold;"> WEAR ON YOUR JERSEY</span>
+            <span class="h4eng" style="color: #8F8F8F;font-weight: bold;"> WEAR ON YOUR JERSEY</span>
+            <button class="buybutton h4eng">BUY </button>
           </div>
         </div>
       </a>
 
-      <a href="/detail.html"  style="width: 100%;">
+      <a href="/detail.html">
         <div class="jersey">
 
           <div class="detail">
             <span class="h3eng" style="color: #000000;font-weight: bold;">Home white</br>
             </span>
-            <span class="h3eng" style="color: #8F8F8F;font-weight: bold;">
+            <span class="h4eng" style="color: #8F8F8F;font-weight: bold;">
               </br>PRICE </span>
             <span class="h3eng" style="color:red;font-weight: bold;"> $ 12.9 </br></span>
-            <span class="h3eng" style="color: #8F8F8F;font-weight: bold;"> WEAR ON YOUR JERSEY</span>
+            <span class="h4eng" style="color: #8F8F8F;font-weight: bold;"> WEAR ON YOUR JERSEY</span>
+            <button class="buybutton h4eng">BUY</button>
           </div>
           <img src="/jersey/lebron-james-lakers-association-edition-2020-nba-authentic-jersey-tMkGsq.jpg" alt="">
         </div>
       </a>
 
-      <a href="/detail.html" style="width: 100%;">
+      <a href="/detail.html">
         <div class="jersey">
           <img src="/jersey/lebron-james-lakers-association-edition-2020-nba-authentic-jersey-tMkGsq.jpg" alt="">
           <div class="detail">
             <span class="h3eng" style="color: #000000;font-weight: bold;">Home white</br>
             </span>
-            <span class="h3eng" style="color: #8F8F8F;font-weight: bold;">
+            <span class="h4eng" style="color: #8F8F8F;font-weight: bold;">
               </br>PRICE </span>
             <span class="h3eng" style="color:red;font-weight: bold;"> $ 12.9 </br></span>
-            <span class="h3eng" style="color: #8F8F8F;font-weight: bold;"> WEAR ON YOUR JERSEY</span>
+            <span class="h4eng" style="color: #8F8F8F;font-weight: bold;">WEAR ON YOUR JERSEY</span>
+            <button class="buybutton h4eng">BUY NOW</button>
           </div>
         </div>
       </a>
@@ -597,6 +612,7 @@
 
   <div class="container">
     <div class="SPECILAJERJSEY">
+
       <div class="card" style="width: 18rem;">
         <img src="/jersey/mvp.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -606,8 +622,12 @@
             Men shose</br>
             $4.0 us
           </p>
+          <button class="buybutton h4eng" style="background-color:  rgb(255, 102, 0);"
+            onclick="location.href='/shoes.html'">BUY </button>
         </div>
       </div>
+      <a href=""></a>
+
       <div class="card" style="width: 18rem;">
         <img src="/jersey/mvp.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -617,6 +637,8 @@
             Men shose</br>
             $4.0 us
           </p>
+          <button class="buybutton h4eng" style="background-color:  rgb(255, 102, 0);"
+            onclick="location.href='/shoes.html'">BUY </button>
         </div>
       </div>
       <div class="card rwdnone" style="width: 18rem;">
@@ -628,6 +650,8 @@
             Men shose</br>
             $4.0 us
           </p>
+          <button class="buybutton h4eng" style="background-color:  rgb(255, 102, 0);"
+            onclick="location.href='/shoes.html'">BUY </button>
         </div>
       </div>
     </div>

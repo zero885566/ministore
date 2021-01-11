@@ -38,6 +38,16 @@
       user-select: none;
     }
 
+    .buybutton {
+            width: 100px;
+            height: 46px;
+            background-color: red;
+            color: #FFFFFF;
+            border: unset;
+            letter-spacing: 50%;
+            margin: 2%;
+        }
+
     #calendar {
       -webkit-transform: translate3d(0, 0, 0);
       -moz-transform: translate3d(0, 0, 0);
@@ -240,6 +250,7 @@
       padding: 7px 0;
       overflow-y: auto;
       overflow-x: hidden;
+      
     }
 
     .events.in {
@@ -272,6 +283,9 @@
       letter-spacing: .5px;
       padding: 2px 16px;
       vertical-align: top;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
     }
 
     .event.empty {
@@ -548,6 +562,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
   <script>
     !function () {
@@ -791,9 +806,12 @@
           var div = createElement('div', 'event');
           var square = createElement('div', 'event-category ' + ev.color);
           var span = createElement('span', '', ev.eventName);
+          var button = createElement('button','buybutton','buy')
 
+         
           div.appendChild(square);
           div.appendChild(span);
+          div.appendChild(button);
           wrapper.appendChild(div);
         });
 
@@ -905,6 +923,21 @@
     }();
 
   </script>
+  <script>
+    
+    $('.buybutton').click(function(){
+      
+      console.log(123);
+    }
+       
+    )
+    let opop = document.getElementsByClassName('buybutton');
+    console.log(opop)
+   opop.click(
+     console.log(123)
+   )
+  </script>
+   
 </body>
 
 </html>
